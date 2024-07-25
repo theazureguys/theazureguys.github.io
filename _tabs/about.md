@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# Welcome to The Azure Guys
+Welcome to **The Azure Guys**.
 
-We are dedicated to transforming the way businesses harness the power of cloud technology. As seasoned Azure engineers with a passion for innovation, we bring a wealth of expertise and a personalized approach to every project. Our goal is to help you unlock the full potential of Microsoft Azure, driving efficiency, scalability, and success for your business.
+We are a team dedicated to transforming the way businesses harness the power of cloud technology. As seasoned Azure engineers with a passion for innovation, we bring a wealth of expertise and a personalized approach to every project. Our goal is to help you unlock the full potential of Microsoft Azure, driving efficiency, scalability, and success for your business.
 
 ## Our Story
 
@@ -28,7 +28,7 @@ We understand that every business is different. That's why we offer tailored sol
 
 ## Innovation
 
-As The Azure Guys, we stay ahead of the curve by continuously exploring the latest advancements in Azure technology. Our innovative solutions are designed to give you a competitive edge and drive your business forward.
+As a team, we stay ahead of the curve by continuously exploring the latest advancements in Azure technology. Our innovative solutions are designed to give you a competitive edge and drive your business forward.
 
 # Our Services
 
