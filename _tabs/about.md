@@ -44,7 +44,7 @@ Ready to take your business to the next level with Azure? We're here to help. Co
 
 Feel free to reach out to us at:
 
-Email: 
-Phone: 
+Email: info[at]theazureguys.co.uk
+Phone: tbc
 
 Follow us on LinkedIn, Twitter, and Facebook for the latest updates and insights.
