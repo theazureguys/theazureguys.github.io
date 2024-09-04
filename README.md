@@ -1,61 +1,43 @@
-# Chirpy Starter
+Welcome to **The Azure Guys**
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+We are a team dedicated to transforming the way businesses harness the power of cloud technology. As seasoned Azure engineers with a passion for innovation, we bring a wealth of expertise and a personalized approach to every project. Our goal is to help you unlock the full potential of Microsoft Azure, driving efficiency, scalability, and success for your business.
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## Our Story
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+The Azure Guys was founded by two enthusiastic and experienced Azure engineers, who share a common vision: to provide top-notch Azure consultancy services that empower businesses to thrive in the digital age. With over 20 years of combined experience in cloud computing, we have honed our skills across a diverse range of industries and projects.
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+## Our Mission
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+Our mission is simple: to deliver exceptional Azure solutions that meet the unique needs of each client. We believe in a collaborative approach, working closely with you to understand your business goals, challenges, and opportunities. Our aim is to become your trusted partners in navigating the complexities of the cloud, ensuring you achieve seamless and efficient digital transformation.
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+# Why Choose Us?
 
-## Prerequisites
+## Expertise
 
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
-the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+With extensive experience in Azure architecture, development, and operations, we possess the technical know-how to tackle any challenge. From migrating legacy systems to designing cloud-native applications, we have the skills to deliver results.
 
-## Installation
+## Personalized Service
 
-Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+We understand that every business is different. That's why we offer tailored solutions that align with your specific requirements. Our hands-on approach ensures that you receive the dedicated attention and support you deserve.
 
-Then clone it to your local machine and run:
+## Innovation
 
-```console
-$ bundle
-```
+As a team, we stay ahead of the curve by continuously exploring the latest advancements in Azure technology. Our innovative solutions are designed to give you a competitive edge and drive your business forward.
 
-## Usage
+## Our Services
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+- **Azure Architecture Design:** Crafting scalable and secure cloud architectures tailored to your business needs.
+- **Cloud Migration:** Seamlessly moving your applications and data to Azure with minimal disruption.
+- **DevOps Implementation:** Automating your development and operations processes for improved efficiency.
+- **Managed Services:** Providing ongoing support and management to ensure your Azure environment runs smoothly.
+- **Consulting and Training:** Offering expert advice and training to empower your team with Azure knowledge and skills.
 
-## Contributing
+## Get In Touch
 
-The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
-If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
+Ready to take your business to the next level with Azure? We're here to help. Contact us today to discuss your project and discover how **The Azure Guys** can make a difference.
 
-## License
+Email: info[at]theazureguys.co.uk
 
-This work is published under [MIT][mit] License.
+Phone: Coming soon
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+x.com: <a href="https://x.com/theazureguys" target="_blank">@theazureguys</a>
