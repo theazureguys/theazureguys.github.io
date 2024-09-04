@@ -44,6 +44,6 @@ Ready to take your business to the next level with Azure? We're here to help. Co
 
 Email: info[at]theazureguys.co.uk
 
-Phone: tbc
+Phone: Coming soon
 
 x.com: <a href="https://x.com/theazureguys" target="_blank">@theazureguys</a>
