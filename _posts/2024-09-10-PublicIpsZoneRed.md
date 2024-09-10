@@ -5,7 +5,9 @@ categories: [Azure, Network, IPs]
 tags: [azure, network, ip, zone, redundant] # TAG names should always be lowercase
 ---
 
-Microsoft have recently announced that Public IPs are now Zone Redundant by default, with some conditions, mostly to do with location availability, but that will improve as they rollout to new locations.  
+ Microsoft Azure Public IPs are zone-redundant by default. This means that unless you specifically select a single zone when deploying your Microsoft Azure Standard Public IPs, they will be zone-redundant—without any extra steps on your part. Yes, automatically.
+
+If you don’t select a zone for your Standard Public IPs (such as the default way of creating one), you will now get the benefits of zone redundancy—at no extra cost. A zone-redundant IP is created in three zones for a region and can survive any single zone failure, improving the resiliency of your application using this public IP.
 
 ## Which regions is this available in?
 
