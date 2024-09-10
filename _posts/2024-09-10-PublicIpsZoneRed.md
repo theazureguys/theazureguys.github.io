@@ -5,7 +5,7 @@ categories: [Azure, Network, IPs]
 tags: [azure, network, ip, zone, redundant] # TAG names should always be lowercase
 ---
 
-Microsoft have recently announced that Public IPs are now Zone Redundant by default, with some conditions. 
+Microsoft have recently announced that Public IPs are now Zone Redundant by default, with some conditions, mostly to do with location availability, but that will improve as they rollout to new locations.  
 
 ## Which regions is this available in?
 
