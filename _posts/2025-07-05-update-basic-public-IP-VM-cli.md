@@ -14,13 +14,9 @@ Microsoft provides a migration script, but I made some enhancements not included
 A Linux environment.
 Azure CLI. a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>
 
-### Script
+## Script
 
 Copy the code below and save it in your preferred Linux editor (I prefer vim).
-
-Before running the script, sign in to your Azure tenant:
-
-az login
 
 *********************
 #!/bin/bash
@@ -59,6 +55,10 @@ az network public-ip update --ids $PIP --sku Standard
 #Add Public IP address back to Network Card
 az network nic ip-config update --public-ip-address "$PIPNAME" --nic-name $NICNAME --name $IPCONFIG -g $NICRG
 *********************
+
+Before running the script, sign in to your Azure tenant:
+
+az login
 
 Once saved, make it executable and run it:
 
