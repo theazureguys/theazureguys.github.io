@@ -12,7 +12,7 @@ Microsoft provides a migration script, but I made some enhancements not included
 ## Pre-requisites
 
 A Linux environment.
-Azure CLI. a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>
+Azure CLI. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>
 
 ## Script
 
