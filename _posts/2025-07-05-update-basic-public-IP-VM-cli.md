@@ -62,6 +62,6 @@ az login
 
 Once saved, make it executable and run it:
 
-vim UpdatePublicIP.sh ###then copy the code into this file###
+vim UpdatePublicIP.sh (copy the code into this file)
 chmod +x UpdatePublicIP.sh
 ./UpdatePublicIP.sh
