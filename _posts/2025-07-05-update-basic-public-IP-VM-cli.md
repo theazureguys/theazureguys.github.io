@@ -2,17 +2,19 @@
 title: Updating a Basic Public IP to a Standard IP Using a Bash Script
 date: 2025-07-05 12:00:00 +/-TTTT
 categories: [Azure, Network]
-tags: [azure, basic, to, standard, public, ip, migration, cli, bash, linux]     # TAG names should always be lowercase
+tags: [azure, basic, standard, public, ip, migration, cli, bash, linux, vm, virtual, machine]     # TAG names should always be lowercase
 ---
 
-Microsoft has announced that Basic Public IP addresses will be <a href="https://www.theazureguys.co.uk/posts/basic-ips/" target="_blank">retired soon.</a>
+Microsoft has announced that Basic Public IP addresses will be <a href="https://www.theazureguys.co.uk/posts/basic-ips/" target="_blank">retired soon</a>.
 
-Microsoft provides a migration script, but I made some enhancements not included in the <a href="https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-upgrade?tabs=azurecli#upgrade-public-ip-address" target="_blank">official version</a> that are necessary for the update to work properly. My script focuses on a single VM rather than performing a mass update across an entire subscription. Because this is a one-off task, it includes some user interaction.
+Microsoft provides a migration script, but I made some enhancements not included in the <a href="https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/public-ip-upgrade?tabs=azurecli#upgrade-public-ip-address" target="_blank">official version</a> that are necessary for the update to work properly. 
+
+This script focuses on a single VM rather than performing a mass update across an entire subscription. As this is a one-off task, it includes some user interaction.
 
 ## Pre-requisites
 
-A Linux environment.
-Azure CLI. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>
+> A Linux environment.
+> Access to a shell with Azure CLI installed. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>.
 
 ## Script
 
@@ -67,7 +69,7 @@ az login
 Once saved, make it executable and run it:
 
 ```bash
-vim UpdatePublicIP.sh #(copy the code into this file)
+vim UpdatePublicIP.sh #(copy the script above into this file)
 ```
 
 ```bash
