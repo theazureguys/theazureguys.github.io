@@ -1,7 +1,7 @@
 ---
 title: Updating a Basic Public IP to a Standard IP Using a Bash Script
 date: 2025-07-05 12:00:00 +/-TTTT
-categories: [Azure, Network, IPs] # I think we can only have two cats here, the 3rd is ignored, a fourth kills the compile.
+categories: [Azure, Network, IPs] # Max 2 - Format: Main Topic (Kitchen/Azure/Other), Resource
 tags: [azure, basic, standard, public, ip, migrate, migration, cli, bash, linux, vm, virtual, machine]     # TAG names should always be lowercase
 ---
 
