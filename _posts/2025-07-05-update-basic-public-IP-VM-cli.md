@@ -1,8 +1,8 @@
 ---
 title: Updating a Basic Public IP to a Standard IP Using a Bash Script
 date: 2025-07-05 12:00:00 +/-TTTT
-categories: [Azure, PublicIP, Standard, Basic]
-tags: [azure, basic, to, standard, public, ip, migartion, cli, bash, linux]     # TAG names should always be lowercase
+categories: [Azure, Network]
+tags: [azure, basic, to, standard, public, ip, migration, cli, bash, linux]     # TAG names should always be lowercase
 ---
 
 Microsoft has announced that Basic Public IP addresses will be <a href="https://www.theazureguys.co.uk/posts/basic-ips/" target="_blank">retired soon.</a>
@@ -18,7 +18,7 @@ Azure CLI. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with
 
 Copy the code below and save it in your preferred Linux editor (I prefer vim).
 
-```
+```bash
 #!/bin/bash
 
 echo "What is the subscriptionID?"
@@ -50,20 +50,30 @@ fi
 
 #Remove Public IP from Network Card
 az network nic ip-config update --public-ip-address null --nic-name $NICNAME --name $IPCONFIG -g $NICRG
+
 #Update Public IP
 az network public-ip update --ids $PIP --sku Standard
+
 #Add Public IP address back to Network Card
 az network nic ip-config update --public-ip-address "$PIPNAME" --nic-name $NICNAME --name $IPCONFIG -g $NICRG
 ```
 
 Before running the script, sign in to your Azure tenant:
 
+```bash
 az login
+```
 
 Once saved, make it executable and run it:
 
-vim UpdatePublicIP.sh (copy the code into this file)
+```bash
+vim UpdatePublicIP.sh #(copy the code into this file)
+```
 
+```bash
 chmod +x UpdatePublicIP.sh
+```
 
+```bash
 ./UpdatePublicIP.sh
+```
