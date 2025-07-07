@@ -1,7 +1,7 @@
 ---
 title: Enable MFA on your Azure Tenant Before 15th Oct 2024
 date: 2024-08-19 15:42:05 +/-TTTT
-categories: [Azure, Entra, MFA]
+categories: [Azure, Entra, MFA] # I think we can only have two cats here, the 3rd is ignored, a fourth kills the compile.
 tags: [azure, entra, id, mfa, security] # TAG names should always be lowercase
 ---
 

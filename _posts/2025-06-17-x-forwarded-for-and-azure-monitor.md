@@ -1,7 +1,7 @@
 ---
 title: Ingesting X-Forwarded-For Header into Azure Monitor
 date: 2025-06-17 12:06:05 +/-TTTT
-categories: [Azure, Monitor, Logs]
+categories: [Azure, Monitor, Logs] # I think we can only have two cats here, the 3rd is ignored, a fourth kills the compile.
 tags: [azure, x, forwarded, for, ingesting, iis, logs, monitor]     # TAG names should always be lowercase
 ---
 

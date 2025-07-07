@@ -1,7 +1,7 @@
 ---
 title: Azure Public IPs are now zone-redundant by default
 date: 2024-09-10 11:42:05 +/-TTTT
-categories: [Azure, Network, IPs]
+categories: [Azure, Network, IPs] # I think we can only have two cats here, the 3rd is ignored, a fourth kills the compile.
 tags: [azure, network, ip, zone, redundant] # TAG names should always be lowercase
 ---
 

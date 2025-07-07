@@ -1,7 +1,7 @@
 ---
 title: CrowdStrike Azure VM Mitigation
 date: 2024-07-19 10:42:05 +/-TTTT
-categories: [Azure, VMs]
+categories: [Azure, VMs] # I think we can only have two cats here, the 3rd is ignored, a fourth kills the compile.
 tags: [azure, vms, crowdstrike, bsod, loop, boot, restart, c00000291, az, vm, repair] # TAG names should always be lowercase
 ---
 
