@@ -13,8 +13,8 @@ This script focuses on a single VM rather than performing a mass update across a
 
 ## Pre-requisites
 
-> A Linux environment.
-> Access to a shell with Azure CLI installed. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>.
+- A Linux VM with a basic IP attached.
+- Access to a shell with Azure CLI installed. <a href="https://learn.microsoft.com/en-us/cli/azure/get-started-with-azure-cli?view=azure-cli-latest#install-or-run-in-azure-cloud-shell" target="_blank">Installation steps</a>.
 
 ## Script
 
