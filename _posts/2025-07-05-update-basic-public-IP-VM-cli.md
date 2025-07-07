@@ -1,8 +1,8 @@
 ---
 title: Updating a Basic Public IP to a Standard IP Using a Bash Script
 date: 2025-07-05 12:00:00 +/-TTTT
-categories: [Azure, Network]
-tags: [azure, basic, standard, public, ip, migration, cli, bash, linux, vm, virtual, machine]     # TAG names should always be lowercase
+categories: [Azure, Migrations, Network, IPs]
+tags: [azure, basic, standard, public, ip, migrate, migration, cli, bash, linux, vm, virtual, machine]     # TAG names should always be lowercase
 ---
 
 Microsoft has announced that Basic Public IP addresses will be <a href="https://www.theazureguys.co.uk/posts/basic-ips/" target="_blank">retired soon</a>.
